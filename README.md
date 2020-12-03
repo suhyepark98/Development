@@ -4,7 +4,7 @@ This "Adidas Online Shopping" app is built mainly from three different files: Ap
 
 When App is called, the React app is started. Inside it, we initialize the list of product items, each of which is defined by id, name, gender, type, price, and image. The list is then passed into the FilteredList component as props.
 
-FilteredList is a component that uses this list and constructs the content portion of the website, including the navbars for filters, the dropdown for sorting options, the product options section, and the cart section. Specifically, it performs filtering based on "Gender" and "Type" and sorting based on "Price" to only display matching products. When a user switches to a different option for any of the filters or the sort method, the corresponding implemented onSelect method is called to cause the state change (on gender, type, or sort).
+FilteredList is a component that uses this list and constructs the content portion of the website, including the navbars for filters, the dropdown for sorting options, the product options section, and the cart section. Specifically, it performs filtering based on "Gender" and "Type" and sorting based on "Price" to only display matching products. When a user selects a different option for any of the filters on the navbars or the sort method on the dropdown, the corresponding implemented onSelect method is called to cause the state change (on gender, type, or sort).
 
 Aggregator functionality is implemented in this class as well to calculate the total price of the products in the cart. "Add to Cart," "Remove from Cart," "Add Quantity," and "Subtract Quantity" functions are built. The total price in the cart is calculated in this class as well, using the state cart dictionary.
 
