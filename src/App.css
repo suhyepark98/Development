@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.app {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: white;
+  padding-bottom: 2vw;
+}
+
+h1 {
+  padding: 1vw 5vw;
+  padding-bottom: 3vw;
+  text-align: center;
+  background: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  text-align: center;
+  padding: 2vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cards-container {
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 3vw;
+}
+
+.cart-container {
+  width: 40vw;
+}
+
+.cart {
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #ccd5f5;
+  padding: 2vw;
+}
+
+html{ 
+  padding-top: 25px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right:30px;
+  background: black;
+}
+
+.content {
+  display: flex;
+  flex-flow: row;
+  padding: 2vw;
+}
+
+.display-products {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.product-list {
+  display: flex;
+  flex-flow: wrap;
+  margin: 1vw;
+  margin-right: 5vw;
+  width: 60vw;
+  text-align: left;
+  float: right; 
+}
+
+.product {
+  width: 20vw;
+  margin-bottom: 1vw;
+}
+
+.item-info {
+  width: 100%;
+  margin: 2vw;
+  display:table;
+  text-align:center;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  padding-bottom: 1vw;
+  border-width: thin;
+}
+
+.total-price {
+  text-align: center;
+}
+
+.filters {
+  margin-left: 1vw;
+}
+
+.dropdown {
+  margin-left: 1vw;
 }
